@@ -236,6 +236,14 @@ button {
         display: inline-block;
     }
 
+    .nav .nav-btn::before {
+        left:  40%;
+    }
+
+    .nav .nav-btn::after {
+        right: 40%;
+    }
+
 }
 
 @media(max-width: 767px) {
@@ -250,14 +258,6 @@ button {
         top: 57px;
     }
 
-    .nav .nav-btn::before {
-        /* right: 47%; */
-        left:  40%;
-    }
-
-    .nav .nav-btn::after {
-        right: 40%;
-    }
 }
 
 .banner{
